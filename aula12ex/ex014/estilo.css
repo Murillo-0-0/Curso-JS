@@ -2,15 +2,20 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
-body {
+body#fundo {
     background-color: rgb(70, 142, 241);
+    height: 100vh;
 }
 
 header {
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 section {
@@ -23,8 +28,14 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
 }
 
+div {
+    text-align: center;
+    padding: 10px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 10px;
 }
